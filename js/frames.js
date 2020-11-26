@@ -29,7 +29,7 @@ function frames(variable){
         document.getElementById("enframe").src="pages/2016.html";
     }  
     else if (variable==10){
-        document.getElementById("enframe").src="pages/presentations/presentations_2018.html";
+        document.getElementById("enframe").src="pages/2020.html";
     }  
     else if (variable==11){
         document.getElementById("enframe").src="pages/distinctions.html";
