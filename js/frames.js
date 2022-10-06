@@ -35,7 +35,7 @@ function frames(variable){
         document.getElementById("enframe").src="pages/2021.html";
     } 
     else if (variable==12){
-        document.getElementById("enframe").src="pages/2021.html";
+        document.getElementById("enframe").src="pages/2022.html";
     }    
     else if (variable==13){
         document.getElementById("enframe").src="pages/linux-software.html";
