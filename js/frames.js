@@ -41,6 +41,6 @@ function frames(variable){
         document.getElementById("enframe").src="pages/2023.html";
     }  
     else if (variable==14){
-        document.getElementById("enframe").src="pages/links.html";
+        document.getElementById("enframe").src="pages/2024.html";
     }  
 } 
