@@ -46,9 +46,12 @@ function frames(variable){
     }
     else if (variable==15){
         src = "pages/supervision.html";
-            }
+    }
     else if (variable==16){
         src = "pages/teaching.html";
+    }
+    else if (variable==17){
+        src = "pages/projects.html";
     }
 
     iframe.src = src;
