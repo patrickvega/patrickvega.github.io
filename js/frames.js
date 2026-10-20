@@ -53,6 +53,12 @@ function frames(variable){
     else if (variable==17){
         src = "pages/projects.html";
     }
+    else if (variable==19){
+        src = "pages/2025.html";
+    }
+    else if (variable==20){
+        src = "pages/2026.html";
+    }
 
     iframe.src = src;
 }
