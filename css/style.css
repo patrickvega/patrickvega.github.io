@@ -291,3 +291,10 @@ li#lihome a{
 #navigation-inf { width: 92.5%; padding-left: 32px; }
 .nav-inf { display: flex; margin: 0 -6.3px; }
 .nav-inf > li { float: none; flex: 1 1 auto; }
+
+/* Barra superior: enlaces ocupan todo el ancho */
+#navigation-sup ul { display: flex; }
+#navigation-sup li { flex: 1 1 auto; }
+#navigation-sup li a,
+#navigation-sup a:link,
+#navigation-sup a:visited { float: none; white-space: nowrap; }
