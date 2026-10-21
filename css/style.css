@@ -236,7 +236,7 @@ li#lihome a{
     background: #696565;
     color: white;
     display: block;
-    padding: 10px 19px;
+    padding: 10px 14px;
 }
 
 .nav-inf li a:not(:last-child) .flecha {
@@ -286,3 +286,8 @@ li#lihome a{
     padding: 20px 0 40px;
     text-align: center; 
 }
+
+/* Menú inferior: botones ocupan todo el ancho del banner */
+#navigation-inf { width: 92.5%; padding-left: 32px; }
+.nav-inf { display: flex; margin: 0 -6.3px; }
+.nav-inf > li { float: none; flex: 1 1 auto; }
